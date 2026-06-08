@@ -1,0 +1,749 @@
+ -- Copyright (C) 1991-2013 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCPGM        : Dedicated power pin for configuration, which MUST be connected to 1.8V, 2.5V or 3.0V depending on the requirements of the configuration device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:	2.5V
+ --					Bank 9:	2.5V
+ -- RREF          : External reference resistor for the quad, MUST be connected to
+ --                 GND via a 2k Ohm resistor.
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks, connect each pin marked GND*
+ --           	    either individually through a 10k Ohm resistor to GND or tie all pins
+ --           	    together and connect through a single 10k Ohm resistor to GND.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ -- GXB_GND*      : Unused GXB Receiver or dedicated reference clock pin. This pin
+ --                 must be connected to GXB_GND through a 10k Ohm resistor.
+ -- GXB_NC        : Unused GXB Transmitter or dedicated clock output pin. This pin
+ --                 must not be connected.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+CHIP  "memory"  ASSIGNED TO AN: EP4CGX110DF27C7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+RESERVED_INPUT_WITH_WEAK_PULLUP : A2        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 8         :                
+port_in_09[5]                : A5        : input  : 2.5 V             :         : 8         : N              
+port_in_02[7]                : A6        : input  : 2.5 V             :         : 8         : N              
+port_in_13[0]                : A7        : input  : 2.5 V             :         : 8         : N              
+port_in_11[0]                : A8        : input  : 2.5 V             :         : 8         : N              
+data_out[5]                  : A9        : output : 2.5 V             :         : 8         : N              
+port_out_02[6]               : A10       : output : 2.5 V             :         : 8         : N              
+port_in_09[4]                : A11       : input  : 2.5 V             :         : 8         : N              
+port_in_13[5]                : A12       : input  : 2.5 V             :         : 8         : N              
+port_out_02[0]               : A13       : output : 2.5 V             :         : 8         : N              
+GND+                         : A14       :        :                   :         : 7         :                
+port_in_01[0]                : A15       : input  : 2.5 V             :         : 7         : N              
+port_out_00[5]               : A16       : output : 2.5 V             :         : 7         : N              
+port_out_12[1]               : A17       : output : 2.5 V             :         : 7         : N              
+port_in_14[3]                : A18       : input  : 2.5 V             :         : 7         : N              
+port_in_15[3]                : A19       : input  : 2.5 V             :         : 7         : N              
+port_out_12[2]               : A20       : output : 2.5 V             :         : 7         : N              
+port_out_12[0]               : A21       : output : 2.5 V             :         : 7         : N              
+port_in_09[3]                : A22       : input  : 2.5 V             :         : 7         : N              
+port_in_01[6]                : A23       : input  : 2.5 V             :         : 7         : N              
+port_out_06[0]               : A24       : output : 2.5 V             :         : 7         : N              
+port_out_06[3]               : A25       : output : 2.5 V             :         : 7         : N              
+GXB_GND*                     : AA1       :        :                   :         : QL0       :                
+GXB_GND*                     : AA2       :        :                   :         : QL0       :                
+VCCL_GXB                     : AA3       : power  :                   : 1.2V    :           :                
+VCCL_GXB                     : AA4       : power  :                   : 1.2V    :           :                
+nSTATUS                      : AA5       :        :                   :         : 3         :                
+MSEL0                        : AA6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA8       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA9       :        :                   :         : 3         :                
+VCCIO3                       : AA10      : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : AA12      : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : AA13      : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : AA14      : power  :                   : 2.5V    : 3         :                
+port_out_05[1]               : AA15      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AA16      : power  :                   : 2.5V    : 4         :                
+port_in_02[5]                : AA17      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+VCCIO4                       : AA19      : power  :                   : 2.5V    : 4         :                
+port_in_03[7]                : AA20      : input  : 2.5 V             :         : 4         : N              
+port_out_15[7]               : AA21      : output : 2.5 V             :         : 4         : N              
+port_out_11[2]               : AA22      : output : 2.5 V             :         : 4         : N              
+port_out_09[3]               : AA23      : output : 2.5 V             :         : 5         : N              
+port_out_01[6]               : AA24      : output : 2.5 V             :         : 5         : N              
+port_out_04[2]               : AA25      : output : 2.5 V             :         : 5         : N              
+port_out_07[0]               : AA26      : output : 2.5 V             :         : 5         : N              
+GND                          : AB1       : gnd    :                   :         :           :                
+GND                          : AB2       : gnd    :                   :         :           :                
+NC                           : AB3       :        :                   :         :           :                
+NC                           : AB4       :        :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 3         :                
+CONF_DONE                    : AB6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB9       :        :                   :         : 3         :                
+GND                          : AB10      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB11      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB12      :        :                   :         : 3         :                
+GND                          : AB13      : gnd    :                   :         :           :                
+port_in_14[4]                : AB14      : input  : 2.5 V             :         : 4         : N              
+data_out[2]                  : AB15      : output : 2.5 V             :         : 4         : N              
+GND                          : AB16      : gnd    :                   :         :           :                
+VCCIO4                       : AB17      : power  :                   : 2.5V    : 4         :                
+port_out_03[5]               : AB18      : output : 2.5 V             :         : 4         : N              
+GND                          : AB19      : gnd    :                   :         :           :                
+port_in_06[4]                : AB20      : input  : 2.5 V             :         : 4         : N              
+port_in_00[7]                : AB21      : input  : 2.5 V             :         : 4         : N              
+GND                          : AB22      : gnd    :                   :         :           :                
+port_out_08[6]               : AB23      : output : 2.5 V             :         : 5         : N              
+port_out_13[5]               : AB24      : output : 2.5 V             :         : 5         : N              
+GND                          : AB25      : gnd    :                   :         :           :                
+port_in_15[1]                : AB26      : input  : 2.5 V             :         : 5         : N              
+RREF                         : AC1       :        :                   :         :           :                
+GND                          : AC2       : gnd    :                   :         :           :                
+VCCA_GXB                     : AC3       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC4       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC5       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC6       :        :                   :         : 3         :                
+~ALTERA_NCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : AC7       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC8       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC9       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC10      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC11      :        :                   :         : 3         :                
+port_in_03[3]                : AC12      : input  : 2.5 V             :         : 3         : N              
+port_in_06[0]                : AC13      : input  : 2.5 V             :         : 3         : N              
+port_in_15[5]                : AC14      : input  : 2.5 V             :         : 4         : N              
+port_in_15[2]                : AC15      : input  : 2.5 V             :         : 4         : N              
+write                        : AC16      : input  : 2.5 V             :         : 4         : N              
+port_in_08[5]                : AC17      : input  : 2.5 V             :         : 4         : N              
+port_in_06[2]                : AC18      : input  : 2.5 V             :         : 4         : N              
+port_in_08[3]                : AC19      : input  : 2.5 V             :         : 4         : N              
+port_in_11[7]                : AC20      : input  : 2.5 V             :         : 4         : N              
+port_in_04[4]                : AC21      : input  : 2.5 V             :         : 4         : N              
+port_in_04[1]                : AC22      : input  : 2.5 V             :         : 4         : N              
+port_out_08[3]               : AC23      : output : 2.5 V             :         : 5         : N              
+port_out_08[0]               : AC24      : output : 2.5 V             :         : 5         : N              
+port_out_14[7]               : AC25      : output : 2.5 V             :         : 5         : N              
+port_in_11[1]                : AC26      : input  : 2.5 V             :         : 5         : N              
+GND                          : AD1       : gnd    :                   :         :           :                
+VCCL_GXB                     : AD2       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD3       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD4       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD5       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD7       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD8       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD9       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD10      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD11      :        :                   :         : 3         :                
+port_in_13[2]                : AD12      : input  : 2.5 V             :         : 3         : N              
+port_in_04[0]                : AD13      : input  : 2.5 V             :         : 3         : N              
+port_out_12[5]               : AD14      : output : 2.5 V             :         : 4         : N              
+port_out_03[6]               : AD15      : output : 2.5 V             :         : 4         : N              
+port_out_00[1]               : AD16      : output : 2.5 V             :         : 4         : N              
+port_in_14[0]                : AD17      : input  : 2.5 V             :         : 4         : N              
+port_in_14[2]                : AD18      : input  : 2.5 V             :         : 4         : N              
+port_in_11[2]                : AD19      : input  : 2.5 V             :         : 4         : N              
+port_in_14[1]                : AD20      : input  : 2.5 V             :         : 4         : N              
+port_in_02[4]                : AD21      : input  : 2.5 V             :         : 4         : N              
+port_in_13[1]                : AD22      : input  : 2.5 V             :         : 4         : N              
+port_out_15[0]               : AD23      : output : 2.5 V             :         : 4         : N              
+port_in_00[1]                : AD24      : input  : 2.5 V             :         : 4         : N              
+port_out_11[4]               : AD25      : output : 2.5 V             :         : 5         : N              
+port_out_13[3]               : AD26      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE1       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE2       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE3       :        :                   :         : 3         :                
+GND                          : AE4       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE5       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE7       :        :                   :         : 3         :                
+GND                          : AE8       : gnd    :                   :         :           :                
+port_out_05[2]               : AE9       : output : 2.5 V             :         : 3         : N              
+port_in_13[4]                : AE10      : input  : 2.5 V             :         : 3         : N              
+port_in_10[4]                : AE11      : input  : 2.5 V             :         : 3         : N              
+GND                          : AE12      : gnd    :                   :         :           :                
+port_in_05[0]                : AE13      : input  : 2.5 V             :         : 3         : N              
+port_in_07[3]                : AE14      : input  : 2.5 V             :         : 4         : N              
+port_out_03[1]               : AE15      : output : 2.5 V             :         : 4         : N              
+GND                          : AE16      : gnd    :                   :         :           :                
+port_in_00[5]                : AE17      : input  : 2.5 V             :         : 4         : N              
+port_out_12[3]               : AE18      : output : 2.5 V             :         : 4         : N              
+port_in_05[3]                : AE19      : input  : 2.5 V             :         : 4         : N              
+GND                          : AE20      : gnd    :                   :         :           :                
+port_in_02[2]                : AE21      : input  : 2.5 V             :         : 4         : N              
+data_out[4]                  : AE22      : output : 2.5 V             :         : 4         : N              
+port_in_15[6]                : AE23      : input  : 2.5 V             :         : 4         : N              
+GND                          : AE24      : gnd    :                   :         :           :                
+port_out_15[4]               : AE25      : output : 2.5 V             :         : 5         : N              
+data_out[7]                  : AE26      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF2       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF3       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF5       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF6       :        :                   :         : 3         :                
+port_in_09[0]                : AF7       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF8       :        :                   :         : 3         :                
+port_in_10[7]                : AF9       : input  : 2.5 V             :         : 3         : N              
+port_in_01[5]                : AF10      : input  : 2.5 V             :         : 3         : N              
+port_out_02[1]               : AF11      : output : 2.5 V             :         : 3         : N              
+port_in_12[2]                : AF12      : input  : 2.5 V             :         : 3         : N              
+port_in_07[5]                : AF13      : input  : 2.5 V             :         : 4         : N              
+port_in_03[5]                : AF14      : input  : 2.5 V             :         : 4         : N              
+port_out_00[2]               : AF15      : output : 2.5 V             :         : 4         : N              
+port_in_14[7]                : AF16      : input  : 2.5 V             :         : 4         : N              
+port_in_12[4]                : AF17      : input  : 2.5 V             :         : 4         : N              
+port_in_06[5]                : AF18      : input  : 2.5 V             :         : 4         : N              
+data_out[6]                  : AF19      : output : 2.5 V             :         : 4         : N              
+port_in_13[6]                : AF20      : input  : 2.5 V             :         : 4         : N              
+port_in_10[2]                : AF21      : input  : 2.5 V             :         : 4         : N              
+port_in_10[1]                : AF22      : input  : 2.5 V             :         : 4         : N              
+port_out_06[2]               : AF23      : output : 2.5 V             :         : 4         : N              
+port_out_06[5]               : AF24      : output : 2.5 V             :         : 4         : N              
+port_in_06[1]                : AF25      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B2        :        :                   :         : 8         :                
+GND                          : B3        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
+port_in_02[0]                : B5        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8         :                
+GND                          : B8        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B9        :        :                   :         : 8         :                
+port_out_02[3]               : B10       : output : 2.5 V             :         : 8         : N              
+port_in_02[3]                : B11       : input  : 2.5 V             :         : 8         : N              
+GND                          : B12       : gnd    :                   :         :           :                
+port_out_00[0]               : B13       : output : 2.5 V             :         : 8         : N              
+GND+                         : B14       :        :                   :         : 7         :                
+port_in_03[0]                : B15       : input  : 2.5 V             :         : 7         : N              
+GND                          : B16       : gnd    :                   :         :           :                
+port_out_03[4]               : B17       : output : 2.5 V             :         : 7         : N              
+port_in_00[3]                : B18       : input  : 2.5 V             :         : 7         : N              
+port_out_03[0]               : B19       : output : 2.5 V             :         : 7         : N              
+GND                          : B20       : gnd    :                   :         :           :                
+port_in_01[3]                : B21       : input  : 2.5 V             :         : 7         : N              
+port_in_09[2]                : B22       : input  : 2.5 V             :         : 7         : N              
+port_in_12[7]                : B23       : input  : 2.5 V             :         : 7         : N              
+GND                          : B24       : gnd    :                   :         :           :                
+port_out_01[5]               : B25       : output : 2.5 V             :         : 6         : N              
+port_out_01[1]               : B26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C4        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C5        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 8         :                
+port_out_02[7]               : C11       : output : 2.5 V             :         : 8         : N              
+port_out_00[7]               : C12       : output : 2.5 V             :         : 8         : N              
+port_out_05[0]               : C13       : output : 2.5 V             :         : 8         : N              
+port_out_03[7]               : C14       : output : 2.5 V             :         : 7         : N              
+port_in_04[3]                : C15       : input  : 2.5 V             :         : 7         : N              
+port_out_03[2]               : C16       : output : 2.5 V             :         : 7         : N              
+port_in_05[5]                : C17       : input  : 2.5 V             :         : 7         : N              
+port_in_11[3]                : C18       : input  : 2.5 V             :         : 7         : N              
+port_in_06[7]                : C19       : input  : 2.5 V             :         : 7         : N              
+port_out_12[4]               : C20       : output : 2.5 V             :         : 7         : N              
+data_out[1]                  : C21       : output : 2.5 V             :         : 7         : N              
+port_in_12[1]                : C22       : input  : 2.5 V             :         : 7         : N              
+port_in_01[2]                : C23       : input  : 2.5 V             :         : 7         : N              
+port_out_05[6]               : C24       : output : 2.5 V             :         : 6         : N              
+port_in_07[7]                : C25       : input  : 2.5 V             :         : 6         : N              
+port_out_01[7]               : C26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 8         :                
+~ALTERA_NCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D5        : input  : 2.5 V             :         : 9         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D6        : input  : 2.5 V             :         : 9         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D11       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 8         :                
+port_in_11[4]                : D13       : input  : 2.5 V             :         : 8         : N              
+port_in_05[7]                : D14       : input  : 2.5 V             :         : 8         : N              
+port_out_12[7]               : D15       : output : 2.5 V             :         : 7         : N              
+port_in_15[0]                : D16       : input  : 2.5 V             :         : 7         : N              
+port_out_02[5]               : D17       : output : 2.5 V             :         : 7         : N              
+port_in_10[3]                : D18       : input  : 2.5 V             :         : 7         : N              
+port_in_12[3]                : D19       : input  : 2.5 V             :         : 7         : N              
+port_out_06[7]               : D20       : output : 2.5 V             :         : 7         : N              
+address[5]                   : D21       : input  : 2.5 V             :         : 7         : N              
+port_out_06[6]               : D22       : output : 2.5 V             :         : 7         : N              
+port_out_07[7]               : D23       : output : 2.5 V             :         : 7         : N              
+port_out_14[6]               : D24       : output : 2.5 V             :         : 6         : N              
+port_in_11[6]                : D25       : input  : 2.5 V             :         : 6         : N              
+port_out_14[5]               : D26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E2        :        :                   :         : 8         :                
+GND                          : E3        : gnd    :                   :         :           :                
+GND                          : E4        : gnd    :                   :         :           :                
+nCONFIG                      : E5        :        :                   :         : 9         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E6        : input  : 2.5 V             :         : 9         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8         :                
+VCCIO8                       : E10       : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 8         :                
+port_out_05[5]               : E12       : output : 2.5 V             :         : 8         : N              
+port_in_06[3]                : E13       : input  : 2.5 V             :         : 8         : N              
+port_in_10[5]                : E14       : input  : 2.5 V             :         : 8         : N              
+port_in_07[2]                : E15       : input  : 2.5 V             :         : 7         : N              
+port_out_00[3]               : E16       : output : 2.5 V             :         : 7         : N              
+port_in_05[2]                : E17       : input  : 2.5 V             :         : 7         : N              
+port_in_08[6]                : E18       : input  : 2.5 V             :         : 7         : N              
+port_in_10[6]                : E19       : input  : 2.5 V             :         : 7         : N              
+port_in_05[4]                : E20       : input  : 2.5 V             :         : 7         : N              
+port_out_07[5]               : E21       : output : 2.5 V             :         : 7         : N              
+port_in_14[6]                : E22       : input  : 2.5 V             :         : 7         : N              
+port_out_01[2]               : E23       : output : 2.5 V             :         : 7         : N              
+port_out_08[4]               : E24       : output : 2.5 V             :         : 6         : N              
+port_out_06[1]               : E25       : output : 2.5 V             :         : 6         : N              
+port_out_08[5]               : E26       : output : 2.5 V             :         : 6         : N              
+GND                          : F1        : gnd    :                   :         :           :                
+GND                          : F2        : gnd    :                   :         :           :                
+GXB_NC                       : F3        :        :                   :         : QL1       :                
+GXB_NC                       : F4        :        :                   :         : QL1       :                
+TMS                          : F5        : input  :                   :         : 9         :                
+~ALTERA_DCLK~                : F6        : output : 2.5 V             :         : 9         : N              
+GND                          : F7        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
+VCCIO8                       : F9        : power  :                   : 2.5V    : 8         :                
+GND                          : F10       : gnd    :                   :         :           :                
+VCCIO8                       : F11       : power  :                   : 2.5V    : 8         :                
+GND                          : F12       : gnd    :                   :         :           :                
+VCCIO8                       : F13       : power  :                   : 2.5V    : 8         :                
+VCCIO8                       : F14       : power  :                   : 2.5V    : 8         :                
+port_in_12[6]                : F15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : F16       : power  :                   : 2.5V    : 7         :                
+GND                          : F17       : gnd    :                   :         :           :                
+VCCIO7                       : F18       : power  :                   : 2.5V    : 7         :                
+GND                          : F19       : gnd    :                   :         :           :                
+VCCIO7                       : F20       : power  :                   : 2.5V    : 7         :                
+port_out_07[4]               : F21       : output : 2.5 V             :         : 6         : N              
+GND                          : F22       : gnd    :                   :         :           :                
+port_out_07[1]               : F23       : output : 2.5 V             :         : 6         : N              
+port_in_03[1]                : F24       : input  : 2.5 V             :         : 6         : N              
+GND                          : F25       : gnd    :                   :         :           :                
+port_out_14[1]               : F26       : output : 2.5 V             :         : 6         : N              
+GXB_GND*                     : G1        :        :                   :         : QL1       :                
+GXB_GND*                     : G2        :        :                   :         : QL1       :                
+GND                          : G3        : gnd    :                   :         :           :                
+GND                          : G4        : gnd    :                   :         :           :                
+VCCL_GXB                     : G5        : power  :                   : 1.2V    :           :                
+TDI                          : G6        : input  :                   :         : 9         :                
+VCCIO9                       : G7        : power  :                   : 2.5V    : 9         :                
+TCK                          : G8        : input  :                   :         : 9         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G11       :        :                   :         : 8         :                
+VCCIO8                       : G12       : power  :                   : 2.5V    : 8         :                
+GND                          : G13       : gnd    :                   :         :           :                
+port_in_05[6]                : G14       : input  : 2.5 V             :         : 7         : N              
+port_in_00[2]                : G15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : G16       : power  :                   : 2.5V    : 7         :                
+port_in_13[7]                : G17       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : G18       : power  :                   : 2.5V    : 7         :                
+VCCIO7                       : G19       : power  :                   : 2.5V    : 7         :                
+GND                          : G20       : gnd    :                   :         :           :                
+VCCD_PLL                     : G21       : power  :                   : 1.2V    :           :                
+port_out_01[0]               : G22       : output : 2.5 V             :         : 6         : N              
+port_out_04[1]               : G23       : output : 2.5 V             :         : 6         : N              
+port_out_07[6]               : G24       : output : 2.5 V             :         : 6         : N              
+port_in_15[7]                : G25       : input  : 2.5 V             :         : 6         : N              
+port_out_12[6]               : G26       : output : 2.5 V             :         : 6         : N              
+GND                          : H1        : gnd    :                   :         :           :                
+GND                          : H2        : gnd    :                   :         :           :                
+GXB_NC                       : H3        :        :                   :         : QL1       :                
+GXB_NC                       : H4        :        :                   :         : QL1       :                
+VCCL_GXB                     : H5        : power  :                   : 1.2V    :           :                
+VCCA                         : H6        : power  :                   : 2.5V    :           :                
+nCE                          : H7        :        :                   :         : 9         :                
+TDO                          : H8        : output :                   :         : 9         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H9        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H11       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H12       :        :                   :         : 8         :                
+port_in_04[5]                : H13       : input  : 2.5 V             :         : 8         : N              
+port_out_05[3]               : H14       : output : 2.5 V             :         : 7         : N              
+port_in_07[6]                : H15       : input  : 2.5 V             :         : 7         : N              
+port_in_00[6]                : H16       : input  : 2.5 V             :         : 7         : N              
+port_in_01[4]                : H17       : input  : 2.5 V             :         : 7         : N              
+port_out_15[3]               : H18       : output : 2.5 V             :         : 7         : N              
+GND                          : H19       : gnd    :                   :         :           :                
+VCCA                         : H20       : power  :                   : 2.5V    :           :                
+VCCIO6                       : H21       : power  :                   : 2.5V    : 6         :                
+data_out[3]                  : H22       : output : 2.5 V             :         : 6         : N              
+port_in_00[4]                : H23       : input  : 2.5 V             :         : 6         : N              
+port_out_07[2]               : H24       : output : 2.5 V             :         : 6         : N              
+port_out_04[4]               : H25       : output : 2.5 V             :         : 6         : N              
+port_in_09[7]                : H26       : input  : 2.5 V             :         : 6         : N              
+GXB_GND*                     : J1        :        :                   :         : QL1       :                
+GXB_GND*                     : J2        :        :                   :         : QL1       :                
+GND                          : J3        : gnd    :                   :         :           :                
+GND                          : J4        : gnd    :                   :         :           :                
+VCCH_GXB                     : J5        : power  :                   : 2.5V    :           :                
+VCCD_PLL                     : J6        : power  :                   : 1.2V    :           :                
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+VCC_CLKIN8B                  : J9        : power  :                   : 2.5V    : 8B        :                
+VCCINT                       : J10       : power  :                   : 1.2V    :           :                
+port_in_12[5]                : J11       : input  : 2.5 V             :         : 8         : N              
+port_out_02[2]               : J12       : output : 2.5 V             :         : 8         : N              
+port_out_03[3]               : J13       : output : 2.5 V             :         : 8         : N              
+port_out_02[4]               : J14       : output : 2.5 V             :         : 8         : N              
+port_in_06[6]                : J15       : input  : 2.5 V             :         : 7         : N              
+port_in_02[6]                : J16       : input  : 2.5 V             :         : 7         : N              
+port_out_15[6]               : J17       : output : 2.5 V             :         : 7         : N              
+port_out_15[1]               : J18       : output : 2.5 V             :         : 7         : N              
+port_in_03[2]                : J19       : input  : 2.5 V             :         : 7         : N              
+port_out_14[2]               : J20       : output : 2.5 V             :         : 6         : N              
+VCCIO6                       : J21       : power  :                   : 2.5V    : 6         :                
+GND                          : J22       : gnd    :                   :         :           :                
+port_in_07[4]                : J23       : input  : 2.5 V             :         : 6         : N              
+port_out_07[3]               : J24       : output : 2.5 V             :         : 6         : N              
+port_in_08[2]                : J25       : input  : 2.5 V             :         : 6         : N              
+address[4]                   : J26       : input  : 2.5 V             :         : 6         : N              
+GND                          : K1        : gnd    :                   :         :           :                
+GND                          : K2        : gnd    :                   :         :           :                
+GXB_NC                       : K3        :        :                   :         : QL1       :                
+GXB_NC                       : K4        :        :                   :         : QL1       :                
+VCCA_GXB                     : K5        : power  :                   : 2.5V    :           :                
+GND                          : K6        : gnd    :                   :         :           :                
+VCCA                         : K7        : power  :                   : 2.5V    :           :                
+VCCINT                       : K8        : power  :                   : 1.2V    :           :                
+GXB_GND*                     : K9        :        :                   :         : 8B        :                
+GXB_GND*                     : K10       :        :                   :         : 8B        :                
+GND                          : K11       : gnd    :                   :         :           :                
+port_in_07[0]                : K12       : input  : 2.5 V             :         : 8         : N              
+port_out_05[4]               : K13       : output : 2.5 V             :         : 8         : N              
+VCC_CLKIN8A                  : K14       : power  :                   : 2.5V    : 8A        :                
+GND                          : K15       : gnd    :                   :         :           :                
+VCCINT                       : K16       : power  :                   : 1.2V    :           :                
+GND                          : K17       : gnd    :                   :         :           :                
+VCCINT                       : K18       : power  :                   : 1.2V    :           :                
+port_out_14[4]               : K19       : output : 2.5 V             :         : 6         : N              
+data_in[4]                   : K20       : input  : 2.5 V             :         : 6         : N              
+port_in_09[6]                : K21       : input  : 2.5 V             :         : 6         : N              
+port_in_04[6]                : K22       : input  : 2.5 V             :         : 6         : N              
+port_out_14[3]               : K23       : output : 2.5 V             :         : 6         : N              
+port_in_03[4]                : K24       : input  : 2.5 V             :         : 6         : N              
+GND                          : K25       : gnd    :                   :         :           :                
+data_in[7]                   : K26       : input  : 2.5 V             :         : 6         : N              
+GXB_GND*                     : L1        :        :                   :         : QL1       :                
+GXB_GND*                     : L2        :        :                   :         : QL1       :                
+GND                          : L3        : gnd    :                   :         :           :                
+GND                          : L4        : gnd    :                   :         :           :                
+VCCL_GXB                     : L5        : power  :                   : 1.2V    :           :                
+VCCD_PLL                     : L6        : power  :                   : 1.2V    :           :                
+VCCINT                       : L7        : power  :                   : 1.2V    :           :                
+GND                          : L8        : gnd    :                   :         :           :                
+GXB_GND*                     : L9        :        :                   :         : 8B        :                
+GXB_GND*                     : L10       :        :                   :         : 8B        :                
+VCCINT                       : L11       : power  :                   : 1.2V    :           :                
+GND                          : L12       : gnd    :                   :         :           :                
+VCCINT                       : L13       : power  :                   : 1.2V    :           :                
+GXB_GND*                     : L14       :        :                   :         : 8A        :                
+GXB_GND*                     : L15       :        :                   :         : 8A        :                
+GND                          : L16       : gnd    :                   :         :           :                
+VCCINT                       : L17       : power  :                   : 1.2V    :           :                
+GND                          : L18       : gnd    :                   :         :           :                
+data_in[6]                   : L19       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : L20       : power  :                   : 2.5V    : 6         :                
+address[6]                   : L21       : input  : 2.5 V             :         : 6         : N              
+address[2]                   : L22       : input  : 2.5 V             :         : 6         : N              
+data_in[2]                   : L23       : input  : 2.5 V             :         : 6         : N              
+address[0]                   : L24       : input  : 2.5 V             :         : 6         : N              
+address[3]                   : L25       : input  : 2.5 V             :         : 6         : N              
+address[7]                   : L26       : input  : 2.5 V             :         : 6         : N              
+GND                          : M1        : gnd    :                   :         :           :                
+GND                          : M2        : gnd    :                   :         :           :                
+GXB_NC                       : M3        :        :                   :         : QL1       :                
+GXB_NC                       : M4        :        :                   :         : QL1       :                
+VCCH_GXB                     : M5        : power  :                   : 2.5V    :           :                
+VCCD_PLL                     : M6        : power  :                   : 1.2V    :           :                
+GND                          : M7        : gnd    :                   :         :           :                
+VCCINT                       : M8        : power  :                   : 1.2V    :           :                
+GND                          : M9        : gnd    :                   :         :           :                
+VCCINT                       : M10       : power  :                   : 1.2V    :           :                
+GND                          : M11       : gnd    :                   :         :           :                
+VCCINT                       : M12       : power  :                   : 1.2V    :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCINT                       : M14       : power  :                   : 1.2V    :           :                
+GND                          : M15       : gnd    :                   :         :           :                
+VCCINT                       : M16       : power  :                   : 1.2V    :           :                
+GND                          : M17       : gnd    :                   :         :           :                
+VCCINT                       : M18       : power  :                   : 1.2V    :           :                
+address[1]                   : M19       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : M20       : power  :                   : 2.5V    : 6         :                
+GND                          : M21       : gnd    :                   :         :           :                
+port_in_07[1]                : M22       : input  : 2.5 V             :         : 6         : N              
+data_in[3]                   : M23       : input  : 2.5 V             :         : 6         : N              
+port_out_04[0]               : M24       : output : 2.5 V             :         : 6         : N              
+data_in[5]                   : M25       : input  : 2.5 V             :         : 6         : N              
+port_out_06[4]               : M26       : output : 2.5 V             :         : 6         : N              
+GXB_GND*                     : N1        :        :                   :         : QL1       :                
+GXB_GND*                     : N2        :        :                   :         : QL1       :                
+GND                          : N3        : gnd    :                   :         :           :                
+GND                          : N4        : gnd    :                   :         :           :                
+VCCA_GXB                     : N5        : power  :                   : 2.5V    :           :                
+GND                          : N6        : gnd    :                   :         :           :                
+VCCA                         : N7        : power  :                   : 2.5V    :           :                
+GND                          : N8        : gnd    :                   :         :           :                
+VCCINT                       : N9        : power  :                   : 1.2V    :           :                
+GND                          : N10       : gnd    :                   :         :           :                
+VCCINT                       : N11       : power  :                   : 1.2V    :           :                
+GND                          : N12       : gnd    :                   :         :           :                
+VCCINT                       : N13       : power  :                   : 1.2V    :           :                
+GND                          : N14       : gnd    :                   :         :           :                
+VCCINT                       : N15       : power  :                   : 1.2V    :           :                
+GND                          : N16       : gnd    :                   :         :           :                
+VCCINT                       : N17       : power  :                   : 1.2V    :           :                
+GND                          : N18       : gnd    :                   :         :           :                
+port_out_13[2]               : N19       : output : 2.5 V             :         : 6         : N              
+data_in[0]                   : N20       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : N21       : power  :                   : 2.5V    : 6         :                
+port_out_08[7]               : N22       : output : 2.5 V             :         : 6         : N              
+port_out_11[7]               : N23       : output : 2.5 V             :         : 6         : N              
+data_in[1]                   : N24       : input  : 2.5 V             :         : 6         : N              
+GND+                         : N25       :        :                   :         : 6         :                
+GND+                         : N26       :        :                   :         : 6         :                
+GND                          : P1        : gnd    :                   :         :           :                
+GND                          : P2        : gnd    :                   :         :           :                
+GXB_NC                       : P3        :        :                   :         : QL0       :                
+GXB_NC                       : P4        :        :                   :         : QL0       :                
+VCCL_GXB                     : P5        : power  :                   : 1.2V    :           :                
+GND                          : P6        : gnd    :                   :         :           :                
+VCCA                         : P7        : power  :                   : 2.5V    :           :                
+VCCINT                       : P8        : power  :                   : 1.2V    :           :                
+GND                          : P9        : gnd    :                   :         :           :                
+VCCINT                       : P10       : power  :                   : 1.2V    :           :                
+GND                          : P11       : gnd    :                   :         :           :                
+VCCINT                       : P12       : power  :                   : 1.2V    :           :                
+GND                          : P13       : gnd    :                   :         :           :                
+VCCINT                       : P14       : power  :                   : 1.2V    :           :                
+GND                          : P15       : gnd    :                   :         :           :                
+VCCINT                       : P16       : power  :                   : 1.2V    :           :                
+GND                          : P17       : gnd    :                   :         :           :                
+VCCINT                       : P18       : power  :                   : 1.2V    :           :                
+port_out_10[1]               : P19       : output : 2.5 V             :         : 5         : N              
+port_out_10[6]               : P20       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : P21       : power  :                   : 2.5V    : 5         :                
+GND                          : P22       : gnd    :                   :         :           :                
+port_out_13[6]               : P23       : output : 2.5 V             :         : 5         : N              
+port_out_13[4]               : P24       : output : 2.5 V             :         : 5         : N              
+GND                          : P25       : gnd    :                   :         :           :                
+port_in_09[1]                : P26       : input  : 2.5 V             :         : 5         : N              
+GXB_GND*                     : R1        :        :                   :         : QL0       :                
+GXB_GND*                     : R2        :        :                   :         : QL0       :                
+GND                          : R3        : gnd    :                   :         :           :                
+GND                          : R4        : gnd    :                   :         :           :                
+VCCH_GXB                     : R5        : power  :                   : 2.5V    :           :                
+VCCD_PLL                     : R6        : power  :                   : 1.2V    :           :                
+VCCINT                       : R7        : power  :                   : 1.2V    :           :                
+GND                          : R8        : gnd    :                   :         :           :                
+VCCINT                       : R9        : power  :                   : 1.2V    :           :                
+GND                          : R10       : gnd    :                   :         :           :                
+VCCINT                       : R11       : power  :                   : 1.2V    :           :                
+GND                          : R12       : gnd    :                   :         :           :                
+VCCINT                       : R13       : power  :                   : 1.2V    :           :                
+GND                          : R14       : gnd    :                   :         :           :                
+VCCINT                       : R15       : power  :                   : 1.2V    :           :                
+GND                          : R16       : gnd    :                   :         :           :                
+VCCINT                       : R17       : power  :                   : 1.2V    :           :                
+GND                          : R18       : gnd    :                   :         :           :                
+port_out_13[0]               : R19       : output : 2.5 V             :         : 5         : N              
+port_in_05[1]                : R20       : input  : 2.5 V             :         : 5         : N              
+VCCIO5                       : R21       : power  :                   : 2.5V    : 5         :                
+port_in_04[7]                : R22       : input  : 2.5 V             :         : 5         : N              
+port_out_11[6]               : R23       : output : 2.5 V             :         : 5         : N              
+port_out_04[5]               : R24       : output : 2.5 V             :         : 5         : N              
+port_out_11[5]               : R25       : output : 2.5 V             :         : 5         : N              
+port_in_01[1]                : R26       : input  : 2.5 V             :         : 5         : N              
+GND                          : T1        : gnd    :                   :         :           :                
+GND                          : T2        : gnd    :                   :         :           :                
+GXB_NC                       : T3        :        :                   :         : QL0       :                
+GXB_NC                       : T4        :        :                   :         : QL0       :                
+VCCA_GXB                     : T5        : power  :                   : 2.5V    :           :                
+VCCD_PLL                     : T6        : power  :                   : 1.2V    :           :                
+GND                          : T7        : gnd    :                   :         :           :                
+VCCINT                       : T8        : power  :                   : 1.2V    :           :                
+GXB_GND*                     : T9        :        :                   :         : 3B        :                
+GXB_GND*                     : T10       :        :                   :         : 3B        :                
+GND                          : T11       : gnd    :                   :         :           :                
+VCCINT                       : T12       : power  :                   : 1.2V    :           :                
+GND                          : T13       : gnd    :                   :         :           :                
+reset                        : T14       : input  : 2.5 V             :         : 3A        : N              
+clock                        : T15       : input  : 2.5 V             :         : 3A        : N              
+VCCINT                       : T16       : power  :                   : 1.2V    :           :                
+GND                          : T17       : gnd    :                   :         :           :                
+VCCINT                       : T18       : power  :                   : 1.2V    :           :                
+port_out_09[4]               : T19       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : T20       : power  :                   : 2.5V    : 5         :                
+port_out_10[0]               : T21       : output : 2.5 V             :         : 5         : N              
+port_out_04[7]               : T22       : output : 2.5 V             :         : 5         : N              
+port_out_11[1]               : T23       : output : 2.5 V             :         : 5         : N              
+port_out_01[3]               : T24       : output : 2.5 V             :         : 5         : N              
+port_out_08[2]               : T25       : output : 2.5 V             :         : 5         : N              
+port_out_09[7]               : T26       : output : 2.5 V             :         : 5         : N              
+GXB_GND*                     : U1        :        :                   :         : QL0       :                
+GXB_GND*                     : U2        :        :                   :         : QL0       :                
+GND                          : U3        : gnd    :                   :         :           :                
+GND                          : U4        : gnd    :                   :         :           :                
+VCCL_GXB                     : U5        : power  :                   : 1.2V    :           :                
+GND                          : U6        : gnd    :                   :         :           :                
+VCCA                         : U7        : power  :                   : 2.5V    :           :                
+GND                          : U8        : gnd    :                   :         :           :                
+GXB_GND*                     : U9        :        :                   :         : 3B        :                
+GXB_GND*                     : U10       :        :                   :         : 3B        :                
+VCCINT                       : U11       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U12       :        :                   :         : 3         :                
+VCCINT                       : U13       : power  :                   : 1.2V    :           :                
+VCC_CLKIN3A                  : U14       : power  :                   : 2.5V    : 3A        :                
+VCCINT                       : U15       : power  :                   : 1.2V    :           :                
+port_in_01[7]                : U16       : input  : 2.5 V             :         : 4         : N              
+VCCINT                       : U17       : power  :                   : 1.2V    :           :                
+port_in_02[1]                : U18       : input  : 2.5 V             :         : 4         : N              
+port_out_10[5]               : U19       : output : 2.5 V             :         : 5         : N              
+VCCIO5                       : U20       : power  :                   : 2.5V    : 5         :                
+GND                          : U21       : gnd    :                   :         :           :                
+port_out_13[1]               : U22       : output : 2.5 V             :         : 5         : N              
+port_out_04[6]               : U23       : output : 2.5 V             :         : 5         : N              
+port_out_09[1]               : U24       : output : 2.5 V             :         : 5         : N              
+port_in_11[5]                : U25       : input  : 2.5 V             :         : 5         : N              
+port_out_13[7]               : U26       : output : 2.5 V             :         : 5         : N              
+GND                          : V1        : gnd    :                   :         :           :                
+GND                          : V2        : gnd    :                   :         :           :                
+GXB_NC                       : V3        :        :                   :         : QL0       :                
+GXB_NC                       : V4        :        :                   :         : QL0       :                
+VCCH_GXB                     : V5        : power  :                   : 2.5V    :           :                
+VCCD_PLL                     : V6        : power  :                   : 1.2V    :           :                
+GND                          : V7        : gnd    :                   :         :           :                
+VCCINT                       : V8        : power  :                   : 1.2V    :           :                
+VCC_CLKIN3B                  : V9        : power  :                   : 2.5V    : 3B        :                
+VCCINT                       : V10       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V11       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V12       :        :                   :         : 3         :                
+port_in_12[0]                : V13       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V14       :        :                   :         : 3         :                
+port_in_08[0]                : V15       : input  : 2.5 V             :         : 4         : N              
+port_out_05[7]               : V16       : output : 2.5 V             :         : 4         : N              
+port_in_00[0]                : V17       : input  : 2.5 V             :         : 4         : N              
+port_in_03[6]                : V18       : input  : 2.5 V             :         : 4         : N              
+port_out_15[2]               : V19       : output : 2.5 V             :         : 4         : N              
+VCCIO5                       : V20       : power  :                   : 2.5V    : 5         :                
+port_out_10[3]               : V21       : output : 2.5 V             :         : 5         : N              
+port_out_08[1]               : V22       : output : 2.5 V             :         : 5         : N              
+port_out_01[4]               : V23       : output : 2.5 V             :         : 5         : N              
+port_in_08[7]                : V24       : input  : 2.5 V             :         : 5         : N              
+GND                          : V25       : gnd    :                   :         :           :                
+port_out_09[0]               : V26       : output : 2.5 V             :         : 5         : N              
+GXB_GND*                     : W1        :        :                   :         : QL0       :                
+GXB_GND*                     : W2        :        :                   :         : QL0       :                
+GND                          : W3        : gnd    :                   :         :           :                
+GND                          : W4        : gnd    :                   :         :           :                
+VCCA_GXB                     : W5        : power  :                   : 2.5V    :           :                
+VCCA                         : W6        : power  :                   : 2.5V    :           :                
+MSEL3                        : W7        :        :                   :         : 3         :                
+VCCIO3                       : W8        : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W9        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W11       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W12       :        :                   :         : 3         :                
+port_in_10[0]                : W13       : input  : 2.5 V             :         : 3         : N              
+port_out_00[4]               : W14       : output : 2.5 V             :         : 3         : N              
+port_out_00[6]               : W15       : output : 2.5 V             :         : 4         : N              
+port_in_04[2]                : W16       : input  : 2.5 V             :         : 4         : N              
+data_out[0]                  : W17       : output : 2.5 V             :         : 4         : N              
+port_in_13[3]                : W18       : input  : 2.5 V             :         : 4         : N              
+port_out_15[5]               : W19       : output : 2.5 V             :         : 4         : N              
+GND                          : W20       : gnd    :                   :         :           :                
+VCCA                         : W21       : power  :                   : 2.5V    :           :                
+port_out_09[5]               : W22       : output : 2.5 V             :         : 5         : N              
+port_out_04[3]               : W23       : output : 2.5 V             :         : 5         : N              
+port_out_11[3]               : W24       : output : 2.5 V             :         : 5         : N              
+port_out_10[2]               : W25       : output : 2.5 V             :         : 5         : N              
+port_in_08[1]                : W26       : input  : 2.5 V             :         : 5         : N              
+GND                          : Y1        : gnd    :                   :         :           :                
+GND                          : Y2        : gnd    :                   :         :           :                
+GXB_NC                       : Y3        :        :                   :         : QL0       :                
+GXB_NC                       : Y4        :        :                   :         : QL0       :                
+VCCL_GXB                     : Y5        : power  :                   : 1.2V    :           :                
+MSEL2                        : Y6        :        :                   :         : 3         :                
+MSEL1                        : Y7        :        :                   :         : 3         :                
+GND                          : Y8        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y9        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y11       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y12       :        :                   :         : 3         :                
+port_in_08[4]                : Y13       : input  : 2.5 V             :         : 3         : N              
+port_in_15[4]                : Y14       : input  : 2.5 V             :         : 3         : N              
+VCCIO4                       : Y15       : power  :                   : 2.5V    : 4         :                
+GND                          : Y16       : gnd    :                   :         :           :                
+port_in_14[5]                : Y17       : input  : 2.5 V             :         : 4         : N              
+GND                          : Y18       : gnd    :                   :         :           :                
+VCCIO4                       : Y19       : power  :                   : 2.5V    : 4         :                
+VCCD_PLL                     : Y20       : power  :                   : 1.2V    :           :                
+port_out_10[7]               : Y21       : output : 2.5 V             :         : 4         : N              
+port_out_11[0]               : Y22       : output : 2.5 V             :         : 5         : N              
+port_out_10[4]               : Y23       : output : 2.5 V             :         : 5         : N              
+port_out_09[6]               : Y24       : output : 2.5 V             :         : 5         : N              
+port_out_09[2]               : Y25       : output : 2.5 V             :         : 5         : N              
+port_out_14[0]               : Y26       : output : 2.5 V             :         : 5         : N              

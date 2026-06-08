@@ -1,0 +1,32 @@
+# Compile of ALU.vhd was successful.
+# Compile of ALU_TB.vhd was successful.
+vsim ALU_TB
+# vsim ALU_TB 
+# Start time: 15:31:33 on May 29,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_tb(behavioral)
+# Loading work.alu(behavioral)
+add wave -position insertpoint sim:/alu_tb/*
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+vsim ALU_TB
+# End time: 15:44:05 on May 29,2026, Elapsed time: 0:12:32
+# Errors: 0, Warnings: 7
+# vsim ALU_TB 
+# Start time: 15:44:05 on May 29,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_tb(behavioral)
+# Loading work.alu(behavioral)
+add wave *
+run 200ns
+run 50ns
+run 250ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/proyecto_vhdl2/wave.do
+# End time: 16:49:32 on May 29,2026, Elapsed time: 1:05:27
+# Errors: 0, Warnings: 1

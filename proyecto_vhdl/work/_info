@@ -1,0 +1,226 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ealu
+Z0 w1780019685
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+Z4 dC:/proyecto_vhdl
+Z5 8C:/altera/13.1/ALU/ALU.vhd
+Z6 FC:/altera/13.1/ALU/ALU.vhd
+l0
+L5 1
+V1DTJoZj_PS5ceJzaa3iHn0
+!s100 D:0P1=bY8VKF3BLbG^dH70
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1780022237
+!i10b 1
+Z9 !s108 1780022237.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/13.1/ALU/ALU.vhd|
+!s107 C:/altera/13.1/ALU/ALU.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 1DTJoZj_PS5ceJzaa3iHn0
+!i122 5
+l16
+L15 98
+VjJ^Io`_kL>>XkkhMO[KoB1
+!s100 4mGGkS<C:]hFF7b[mfn0a3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/altera/13.1/ALU/ALU.vhd|
+!i113 1
+R11
+R12
+Ememory
+Z14 w1779933482
+R1
+R2
+R3
+!i122 2
+R4
+Z15 8C:/altera/13.1/memory/memory.vhd
+Z16 FC:/altera/13.1/memory/memory.vhd
+l0
+L5 1
+V4URPjjO84H`Z;WZP>l0k:2
+!s100 LdACzGQ[P=fFXoBRVM7i;2
+R7
+32
+Z17 !s110 1780007335
+!i10b 1
+Z18 !s108 1780007335.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/13.1/memory/memory.vhd|
+Z20 !s107 C:/altera/13.1/memory/memory.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R3
+DEx4 work 6 memory 0 22 4URPjjO84H`Z;WZP>l0k:2
+!i122 2
+l104
+L48 329
+VkbH[QMhGIRQFAE@UU`^1;2
+!s100 =:3T@WZh0mhi5>hnQPnk20
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Ememory_tb
+Z21 w1780007640
+R1
+R2
+R3
+!i122 4
+R4
+Z22 8C:/proyecto_vhdl/memory_tb.vhd
+Z23 FC:/proyecto_vhdl/memory_tb.vhd
+l0
+L5 1
+V6RCz[[3e4H5=KE5Lgd`UQ3
+!s100 ;HleMYoiKf@m0K3<Zg4Yn2
+R7
+32
+Z24 !s110 1780007647
+!i10b 1
+Z25 !s108 1780007647.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/proyecto_vhdl/memory_tb.vhd|
+Z27 !s107 C:/proyecto_vhdl/memory_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R3
+DEx4 work 9 memory_tb 0 22 6RCz[[3e4H5=KE5Lgd`UQ3
+!i122 4
+l102
+L8 252
+V1KmXE8MfIc:nKF:MD>n@b3
+!s100 ^D6Q;2EDC8Kk8KeAaL]6V0
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Erom_128x8_sync
+Z28 w1779930957
+R1
+R2
+R3
+!i122 0
+R4
+Z29 8C:/altera/13.1/rom_128x8_sync/rom_128x8_sync.vhd
+Z30 FC:/altera/13.1/rom_128x8_sync/rom_128x8_sync.vhd
+l0
+L5 1
+VA:C^zY1jFFViMV88fo:hD2
+!s100 5ck1i3MOehnL@nMVeLG@b1
+R7
+32
+Z31 !s110 1780007334
+!i10b 1
+Z32 !s108 1780007334.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/13.1/rom_128x8_sync/rom_128x8_sync.vhd|
+Z34 !s107 C:/altera/13.1/rom_128x8_sync/rom_128x8_sync.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R3
+DEx4 work 14 rom_128x8_sync 0 22 A:C^zY1jFFViMV88fo:hD2
+!i122 0
+l55
+L13 66
+VZeWY?Yij1bnomEDTli6HT0
+!s100 0YT<=7IX4LKUZH1BebZZe0
+R7
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Erw_96x8_sync
+Z35 w1779931121
+R1
+R2
+R3
+!i122 1
+R4
+Z36 8C:/altera/13.1/rw_96x8_sync/rw_96x8_sync.vhd
+Z37 FC:/altera/13.1/rw_96x8_sync/rw_96x8_sync.vhd
+l0
+L5 1
+VK=nbW3JB9[zH6gaWF7B=O0
+!s100 >[Sg55EgmiGmNV7NfjbIB1
+R7
+32
+R17
+!i10b 1
+R32
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/13.1/rw_96x8_sync/rw_96x8_sync.vhd|
+Z39 !s107 C:/altera/13.1/rw_96x8_sync/rw_96x8_sync.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R3
+DEx4 work 12 rw_96x8_sync 0 22 K=nbW3JB9[zH6gaWF7B=O0
+!i122 1
+l22
+L15 33
+V3foe=J1[gNWQ6HR6O<eWJ1
+!s100 3g0^3ha<PD@772DIN2V8^2
+R7
+32
+R17
+!i10b 1
+R32
+R38
+R39
+!i113 1
+R11
+R12
